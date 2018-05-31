@@ -2,9 +2,9 @@
 
 # php file upload used ajax
 
-Today there is no date directory creates a directory of the current date. ..
-And it outputs a list of uploaded files...
-'x' is the delete file button.
+Today there is no date directory creates a directory of the current date.  
+And it outputs a list of uploaded files.
+#'x' is the delete file button.
 
 # ajax를 이용한 php 파일 업로드
 
