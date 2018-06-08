@@ -1,5 +1,5 @@
 <?php
-namespace vander;
+namespace vender;
 class Bye
 {
     function __construct()
