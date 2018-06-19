@@ -6,7 +6,7 @@ use \PDO;
 
 class HomeModel extends Model
 {
-    public function select($category, $idx, $pageNo)
+    public function selectList($category, $idx, $pageNo)
     {
         $sql = 'SELECT * FROM dd_posts ';
         //$sql = $sql.' WHERE idx = :idx';

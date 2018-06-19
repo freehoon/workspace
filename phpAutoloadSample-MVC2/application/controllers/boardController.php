@@ -8,7 +8,7 @@ class BoardController extends Controller
         echo "Board controller index method <br>";
 
         $model = new \application\models\HomeModel();
-        $list = $model->select($category, $idx, $pageNo);
+        $list = $model->selectList($category, $idx, $pageNo);
 
         require_once 'application/views/board/index.php';
     }
