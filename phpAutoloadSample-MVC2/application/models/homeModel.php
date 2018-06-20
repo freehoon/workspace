@@ -1,7 +1,6 @@
 <?php
 namespace application\models;
 
-use application\model\Model;
 use \PDO;
 
 class HomeModel extends Model
